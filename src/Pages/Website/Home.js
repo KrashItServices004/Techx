@@ -558,7 +558,7 @@ export const Home = (props) => {
             <div className="col-xl-3 col-lg-4 col-md-6">
               {/* <!-- box --> */}
               <div className="box color-2">
-                <a href="/NetworkManagement"  className="box-link"></a>
+                <Link tp="/NetworkManagement"  className="box-link"></Link>
                 {/* <!-- link --> */}
 
                 {/* <!-- icon --> */}
