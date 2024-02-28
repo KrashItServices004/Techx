@@ -1,7 +1,14 @@
+import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 import ThemeSetting from "./Include/ThemeSetting"
+import { useEffect } from "react";
 
 
 const Team = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
     return (
         <>
             <div className="se-i-support py-120">

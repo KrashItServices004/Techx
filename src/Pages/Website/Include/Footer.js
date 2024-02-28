@@ -80,26 +80,26 @@ export const Footer = (props) => {
                                 <li className="list-link"><Link to="/about">About Us</Link></li>
                                 {/* <li className="list-link"><a href="#">Newsroom</a></li> */}
                                 {/* <li className="list-link"><a href="#">Investor Relations</a></li> */}
-                                <li className="list-link"><a href="/investor">Investor </a></li>
-                                <li className="list-link"><a href="/career">Career</a></li>
-                                {/* <li className="list-link"><a href="#">Corporate Responsibility</a></li> */}
-                                {/* <li className="list-link"><a href="#">Trust Center</a></li> */}
-                                <li className="list-link"><a href="https://www.hostx.live/">HostX</a></li>
-                                <li className="list-link"><a href="https://ukcyberx.com/">Cyberx</a></li>
+                                <li className="list-link"><Link to="/investor">Investor </Link></li>
+                                <li className="list-link"><Link to="/career">Career</Link></li>
+                                {/* <li className="list-link"><a to="#">Corporate Responsibility</a></li> */}
+                                {/* <li className="list-link"><a to="#">Trust Center</a></li> */}
+                                <li className="list-link"><a href="https://www.hostx.live/" target='blank'>HostX</a></li>
+                                <li className="list-link"><Link to="https://ukcyberx.com/" target='blank'>Cyberx</Link></li>
                                 {/* <li className="list-link"><Link to="/terms">Legal</Link></li> */}
-                                {/* <li className="list-link"><a href="https://store.techx.live/legal-agreements" target="_blank">Legal</a></li> */}
+                                {/* <li className="list-link"><a to="https://store.techx.live/legal-agreements" target="_blank">Legal</a></li> */}
                             </ul>
                             {/* <!-- footer-list --> */}
                             <ul className={`footer-list list-unstyled ${(isFooterLinkOpen == 'Help') ? 'open-list' : ''}`} onClick={() => openFooterLink('Help')}>
                                 <li className="list-title">Help Center</li>
-                                {/* <li className="list-link"><a href="https://www.secureserver.net/help?pl_id=589497" target="_blank">Help Center</a></li> */}
-                                {/* <li className="list-link"><a href="#">Community</a></li> */}
-                                {/* <li className="list-link"><a href="#">TechX Blog</a></li> */}
+                                {/* <li className="list-link"><a to="https://www.secureserver.net/help?pl_id=589497" target="_blank">Help Center</a></li> */}
+                                {/* <li className="list-link"><a to="#">Community</a></li> */}
+                                {/* <li className="list-link"><a to="#">TechX Blog</a></li> */}
                                 <li className="list-link"><Link to="/contact">Contact Us</Link></li>
                                 <li className="list-link"><Link to="/support">Report Abuse</Link></li>
                                 <li className="list-link"><Link to="/support">FAQ</Link></li>
                                 <li className="list-link"><Link to="/team">Team</Link></li>
-                                {/* <li className="list-link"><a href="https://www.secureserver.net/help?pl_id=589497" target="_blank">Resources</a></li> */}
+                                {/* <li className="list-link"><a to="https://www.secureserver.net/help?pl_id=589497" target="_blank">Resources</a></li> */}
                             </ul>
                             <ul className={`footer-list list-unstyled ${(isFooterLinkOpen == 'Technology') ? 'open-list' : ''}`} onClick={() => openFooterLink('Technology')}>
                                 <li className="list-title">Technology Solutions</li>

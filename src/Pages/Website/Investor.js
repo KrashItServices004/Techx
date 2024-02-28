@@ -1,7 +1,14 @@
+import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 import ThemeSetting from "./Include/ThemeSetting"
+import { useEffect } from "react";
 
 
 const Investor = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
     return (
         <>
             <div className="se-i-support py-120">
@@ -50,7 +57,7 @@ const Investor = () => {
                         <p className="para-1" style={{ fontSize: "18px" }}>Invest in the future with TechX. For inquiries and more information, reach out to our Investor Relations team at <a><b>invest@techx.live</b></a> or give us a call at [Your Contact Number].</p>
 
                     </div>
-                    <h1 className="title-1 text-center" style={{fontSize:"20px"}}>Join us in revolutionizing the tech landscape. Your investment fuels our innovation, and together, we'll shape a future powered by TechX. </h1>
+                    <h1 className="title-1 text-center" style={{ fontSize: "20px" }}>Join us in revolutionizing the tech landscape. Your investment fuels our innovation, and together, we'll shape a future powered by TechX. </h1>
                     <h1 className="title-1 text-center">Be Part of the TechX Revolution. Invest Today! </h1>
                 </div>
             </div>
