@@ -1,0 +1,31 @@
+
+
+
+.custom-link {
+  color: white; /* Set your preferred link color */
+  cursor: pointer; /* Add pointer cursor on hover to indicate clickability */
+  text-decoration: none; /* Remove default underline */
+  padding: 8px 12px; /* Add padding for better visual appearance */
+  display: block; /* Make the link a block element to take up the full width */
+
+}
+
+.custom-link:hover {
+  color: white; /* Change color on hover if desired */
+}
+
+.popover-title {
+  color: whitesmoke; /* Set the title color to match the link color */
+}
+.custom-style1{
+  background:black;
+}
+
+
+
+@media screen and (max-width: 750px) {
+  .popover-body{
+    margin-top: 22rem;
+  }
+  
+  }

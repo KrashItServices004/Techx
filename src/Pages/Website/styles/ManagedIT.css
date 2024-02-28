@@ -1,0 +1,237 @@
+.cloud-header {
+
+    /* background-image: url('/public/assets/images/theme/cloud-header.gif') !important; */
+   
+    background-size: contain !important;
+   
+    background-position: right bottom !important;
+   
+    margin-right: -70px;
+   
+    background-repeat: no-repeat
+   
+   }
+   
+   
+   
+   
+   .cloud1-bg {
+   
+    /* background-image: url('/public/assets/images/theme/cloud1.gif') !important; */
+   
+    background-size: contain;
+   
+    background-repeat: no-repeat;
+   
+    background-position: right;
+   
+    /* height: 100%; */
+   
+    min-height: 100%;
+   
+    max-height: 100%;
+   
+    display: block;
+   
+    padding: 182px;
+   
+   }
+   
+   
+   
+   
+   .cloud2-bg {
+   
+    /* background-image: url('/public/assets/images/theme/cloud2.gif') !important; */
+   
+    background-size: contain !important;
+   
+    background-position: right bottom !important;
+   
+    margin-right: -70px;
+   
+    background-repeat: no-repeat
+   
+   }
+   
+   
+   
+   
+   .cloud-block .title-11 {
+   
+    font-size: 55px;
+   
+    font-family: var(--primary-font);
+   
+    font-weight: 600;
+   
+    color: #ffffff;
+   
+    line-height: 1.2;
+   
+    max-width: 600px;
+   
+   }
+   
+   
+   
+   
+   .cloud2-bg .title {
+   
+    font-size: 42px;
+   
+   }
+   .It-text-title-one {
+    font-size: 59px;
+    color:#0cb340;
+    line-height: 60px;
+    font-family: orbitron;
+    font-weight: 500;
+}
+
+   .cloud-banner-section {
+    height: 90vh!important;
+   }
+   .se-iv-home .box-title{
+    color: #27afe8;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: orbitron;
+   }
+   .head3{
+    text-align: center;
+    font-size: 25px;
+    font-family: orbitron;
+    font-weight: 500;
+    color: #0cb340;
+    padding-bottom: 30px;
+   }
+   .se-head .se-title-1{
+    
+    font-size: 25px;
+    font-family: orbitron;
+    font-weight: 500;
+    /* color: var(--primary); */
+    margin-bottom: 10px;
+    text-transform: none;
+    color: #0cb340;
+   }
+   .se-head .se-title-2{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    /* font-weight: 700; */
+    /* color: #FFFFFF; */
+     line-height: 1.5; 
+    margin-bottom: 20px;
+    /* font-weight: 500; */
+    /* font-family: Orbitron; */
+    color:#27afe8;
+    padding-left: 15px;
+    padding-top: 26px;
+   }
+   .row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px 
+   }
+   .headh1{
+    font-size: 25px;
+    color: #0cb340;
+    margin-right: 120px;
+    font-family: orbitron;
+   }
+   .heads5{
+    font-size: 25px;
+    color: #0cb340;
+    font-weight: 500;
+    font-family: orbitron;
+    padding-left: 50px;
+    padding-top: 15px;
+
+   }
+   .aboutus-text-section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+   }
+   .h4{
+    font-size: 20px;
+    color: aqua;
+    font-family: orbitron;
+    font-weight: 500;
+   }
+   .pa{
+    font-size: 16px;
+    color: antiquewhite;
+    font-family: inter;
+    font-weight: 500;
+   }
+   .head4d{
+    margin-top: -260px;
+    margin-bottom: 70px;
+    padding: 50px;
+   }
+   .head4d .head4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: orbitron;
+    color: #0cb340;
+
+   }
+   .head4d .pa4{
+    text-align: center;
+    font-size: 16px;
+    font-family: inter;
+    color: #27AFE8;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 35
+   }
+
+   @media only screen and (max-width: 600px){
+    .se-head{
+      padding-left: 0px;
+    }
+    .head4d{
+      margin-top: 30px;
+      padding: 20px;
+    }
+    .head4d .pa4{
+      padding: 0px;
+      margin: 0px;
+    }
+    .It-text-title-one {
+      font-size: 40px;
+      color:#0cb340;
+      line-height: 50px;
+      font-family: orbitron;
+      font-weight: 500;
+      padding-bottom: 10px;
+  }
+  #imgg-mit img{
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+  }
+  #mit-wct{
+    margin-left: 25px;
+  }
+    
+   }
+
+   @media only screen and (max-width: 1000px) { 
+    .cloud-banner-section {
+         height: auto!important;
+     }
+   }
+   @media only screen and (max-width: 1024px) {
+ .cloud-row-reverse {
+    flex-direction: column-reverse;
+ }
+   }

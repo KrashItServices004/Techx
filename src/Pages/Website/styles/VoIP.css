@@ -1,0 +1,153 @@
+.Itf-style-home{
+    height: 600px;
+    width: 100%;
+}
+.voip-style1{
+    padding: 60px 0px 80px 20px ;
+   
+}
+
+.voip-style1 h1{
+    font-size: 55px;
+    font-family: orbitron;
+    font-weight: 500;
+    color:red;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.voip-style2{
+    padding: 40px 90px 40px 90px;
+}
+.voip-style2 h2{
+    font-size: 40px;
+    font-family: orbitron;
+    font-weight: 500;
+    color: #3cb340;
+    padding: 20px;
+}
+.voip-style2 p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inter;
+    color: antiquewhite;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 10px;
+}
+.voip-mgt2{
+    margin-top: 20px;
+}
+.voip-mgt2 h2{
+    font: normal normal 500 30px/1.5 orbitron;
+    color: #3cb340;
+    padding: 20px;
+}
+.voip-mgt2 p{
+    font: normal normal 500 16px/1.5 inter;
+    padding: 20px;
+    color: #ca003c;
+}
+.voip-style3 h2{
+    color: #3cb340;
+    font-size: 30px;
+    font-family: orbitron;
+    font-weight: 500;
+}
+
+.voip-style4 h3{
+    color: aqua;
+    font-family: orbitron;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.voip-style4 p{
+    color: antiquewhite;
+    font-size:15px;
+    font-family: inter;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    
+}
+
+.voip-style6{
+    border: 1px solid wheat;
+    margin: 0;
+    padding: 0;
+}
+.voip-style6 img{
+    height: 100px;
+    width: 100%;
+}
+.voip-style8{
+    padding: 80px 10px 30px 80px;
+}
+.voip-mgt2 h1{
+    font: normal normal 500 50px/1.5 orbitron;
+    color: #3cb340;
+    padding: 2px;
+}
+.voip-head4d .voip-head4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: orbitron;
+    color: #0cb340;
+}
+.voip-head4d .pa4 {
+    text-align: center;
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 500;
+    color: #27AFE8;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 576px){
+    .voip-style1 img{
+        height: 300px;
+        width: 300px;
+        margin-left: 10px;
+    }
+    .voip-style1 h1{
+        font-size: 30px;
+        padding: 0%;
+        margin-left: 10px;
+        line-height: normal;
+    }
+    .voip-style2{
+        padding:0%;
+    }
+    .voip-style2 h2{
+        font-size: 35px;
+        margin-left: 20px;
+        line-height: normal;
+    }
+    .voip-style2 p{
+        font-size: 16px;
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    .voip-style8{
+        padding:0%;
+    }
+    .voip-style8 img{
+        height: 300px;
+        width: 300px;
+        margin-left: 20px;
+    }
+    .voip-style5{
+        padding: 0px 20px 0px 20px;
+    }
+    .pa4{
+        padding: 0%;
+    }
+}

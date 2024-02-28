@@ -1,0 +1,146 @@
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.support-expertise-section {
+  background-color: #132a54;
+  padding: 50px 0;
+}
+.digital-section_subtitle {
+  color: #0cb340;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Orbitron;
+  margin: 50px 0px;
+}
+.cs-section_title {
+  color: #fff;
+  font-size: 55px;
+  text-align: center;
+  font-family: Orbitron;
+  margin-bottom: 30px;
+}
+
+.support-sub-heading {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Orbitron;
+}
+.support-sub-p {
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+}
+
+.dm-iconbox_icon {
+  display: block;
+  margin: auto;
+}
+.dm-iconbox_title {
+  font-size: 22px;
+  margin: 20px 0 20px;
+  text-align: center;
+  font-family: Orbitron;
+  color: #fff;
+}
+.dm-description {
+  color: var(--text-gray);
+  text-align: center;
+  font-family: Inter;
+}
+.sup-mgt2 h2{
+  font: normal normal 500 30px/1.5 orbitron;
+  color: #3cb340;
+  padding: 20px;
+}
+.sup-mgt2 p{
+  font: normal normal 500 16px/1.5 inter;
+  padding: 20px;
+  color: #ca003c;
+}
+
+.light-theme .digital-marketing-section {
+    background: #fff;
+}
+.light-theme .cs-section_title {
+    color: var(--dark);
+}
+.light-theme .dm-iconbox_title {
+    color: var(--dark);
+}
+.light-theme .dm-about-title {
+    color: var(--dark);
+}
+.light-theme .dm-icon-text {
+    color: var(--dark);
+}
+.light-theme .dm-section_title {
+    color: var(--dark);
+}
+.light-theme .q:not(:last-child) {
+    border-bottom: 1px solid #4e4e52;
+}
+@media only screen and (max-width: 900px) {
+  .dm-about-title {
+    font-size: 35px;
+  }
+  .dm-icon-text {
+    font-size: 15px;
+  }
+  .cs-section_title {
+    font-size: 35px;
+  }
+  .dm-iconbox_title {
+    font-size: 25px;
+  }
+  .dm-section_title {
+    font-size: 35px;
+}
+}
+@media only screen and (max-width: 768px) { 
+  .dm-list-section {
+    justify-content: flex-start;
+}
+.second-list-section {
+  margin-left: 50px;
+}
+.dm-about-image {
+  width: 50vw;
+}
+.qna-all-section {
+  height: auto;
+}
+.main {
+  position: relative;
+  margin-top: 50px;
+}
+}
+@media only screen and (max-width: 450px) { 
+  .dm-list-section {
+    flex-direction: column;
+  }
+  .second-list-section {
+    margin-left: 0px;
+}
+}
+@media only screen and (max-width: 576px){
+  .sup-mgt2 img{
+    height: 310px;
+    width: 310px;
+    margin-left: 0px;
+  }
+  #Containers {
+    padding: 0 5vw;
+}
+
+}

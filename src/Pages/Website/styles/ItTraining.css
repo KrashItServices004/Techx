@@ -1,0 +1,331 @@
+
+/* front Page */
+
+.f-page {
+  width: 100%;
+  height: 80vh;
+  background: #132a54;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px;
+  color: white;
+  font-family: Orbitron;
+  gap: 70px;
+}
+
+.f-page h1,
+.f-page h3,
+.f-page p {
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.f-page h1 {
+  width: 500px;
+  font-size: 32px;
+}
+
+.f-page h3 {
+  width: 600px;
+  font-size: 22px;
+}
+
+.f-page p {
+  width: 700px;
+  font-size: 17px;
+  font-family: Inter;
+}
+
+.f-page .t-success {
+  color: rgb(255, 255, 255);
+}
+
+.f-page .t-company {
+    width: 120px;
+    margin-top: 10px;
+    background-image: url("../../../../public/assets/images/pages/ItTraining/brush_stroke.svg");
+    background-repeat: repeat-x;
+}
+
+.f-page .t-success {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+
+}
+
+.f-page .tchar-x {
+    color: red;
+}
+
+.f-page .f-image img {
+    width: 500px;
+    transform: rotateX(10deg) rotateY(30deg);
+    border-radius: 10px;
+    box-shadow: 12px 12px 16px #9e9cfb, -8px -8px 16px #ee8282;
+
+}
+
+
+
+/* Cards */
+
+.cardds {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #132a54;
+  gap: 50px;
+  row-gap: 70px;
+  /* padding: 60px 120px; */
+  padding-left: 40px;
+  justify-content: space-between;
+  font-family: Orbitron;
+}
+
+.cardds .card-heading {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  justify-self: center;
+  margin-bottom: 20px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.cardds .card {
+  border-radius: 25px;
+  background: #e4e1e1;
+  box-shadow: -8px -8px 16px #6b6767;
+  height: 40vh;
+  padding: 30px 30px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+/* .card:hover {
+  transform: scale(1.2);
+  box-shadow: none;
+} */
+
+.card h2 {
+  margin-bottom: 15px;
+  
+}
+
+.card p {
+  line-height: 25px;
+  font-size: 17px;
+  font-family: Inter;
+}
+
+.animation-container {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 25vh;
+  text-align: center;
+}
+
+.animation-container .round-animation {
+  background: #132a54;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  filter: blur(0.5px);
+}
+
+.card1, .card3 {
+  position: relative;
+  top: 120px;
+}
+
+.card4, .card6 {
+  position: relative;
+  top: -120px;
+}
+
+/* Categories */
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px 100px;
+  background: #132a54;
+  color: white;
+  gap: 40px;
+  row-gap: 70px;
+}
+
+.logo {
+  color: red;
+}
+
+.categories .category-heading {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Orbitron;
+  
+}
+
+.categories .category {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  padding: 20px;
+}
+
+.categories .category:hover {
+  background-color: rgb(204, 200, 200);
+  transform: scale(1.1);
+  border-radius: 10px;
+  color: rgb(22, 21, 21);
+}
+
+.categories .category h2 {
+  margin-right: 30px;
+  font-family: Orbitron;
+}
+
+.category p {
+  font-family: Inter;
+}
+
+@media only screen and (max-width: 600px){
+  .f-page {
+    width: 100%;
+    height: 80vh;
+    background: #132a54;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    color: white;
+    font-family: Orbitron;
+    gap: 10px;
+  }
+  .f-page h1 {
+    width: 350px;
+    font-size: 25px;
+  }
+  
+  .f-page h3 {
+    width: 350px;
+    font-size: 20px;
+  }
+  
+  .f-page p {
+    width: 350px;
+    font-size: 16px;
+    
+  }
+  .f-page .f-image img {
+    width: 350px;
+
+}
+
+
+
+/* Cards */
+
+.cardds {
+  display: block;
+  grid-template-columns: repeat(3, 1fr);
+  background: #132a54;
+  /* padding: 60px 120px; */
+  padding-left: 4px;
+  padding-top: 150px;
+  padding-right: 20px;
+  justify-content: space-between;
+  font-family: Orbitron;
+  padding-top: 330px;
+}
+
+.cardds .card-heading {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  justify-self: center;
+  margin-bottom: 20px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.cardds .card {
+  height: 54vh;
+  padding: 20px 20px;
+  width: 350px;
+  margin-left: 8px;
+  
+}
+.card1, .card3 {
+  position: relative;
+  top: 120px;
+}
+
+.card4, .card6 {
+  position: relative;
+  top: 60px;
+}
+.animation-container {
+  height: 50vh;
+}
+
+.animation-container .round-animation {
+  background: #132a54;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  filter: blur(0.5px);
+  margin-top: 130px;
+}
+.categories {
+  display: block;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 90px 7px;
+  background: #132a54;
+  color: white;
+  gap: 50px;
+  row-gap: 80px;
+  margin-top: -20px;
+}
+
+.logo {
+  color: red;
+}
+
+.categories .category-heading {
+  grid-column-start: 0;
+  grid-column-end: 0;
+  text-align:center;
+  margin-bottom: 20px;
+  font-family: Orbitron;
+ 
+  
+}
+
+.categories .category {
+  display: block;
+  flex-direction: row;
+  width: 320px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+}
+
+
+
+
+
+
+

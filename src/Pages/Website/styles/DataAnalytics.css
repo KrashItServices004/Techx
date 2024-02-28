@@ -1,0 +1,267 @@
+.masthead{
+    background-image: url("/public/assets/images/icons/It3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;    
+}
+.masthead h1{
+    text-align: center;
+    font-size: 59px;
+    font-family: orbitron;
+    font-weight: 500;
+    color:red;
+
+    
+}
+.da-home-style .row{
+    margin: 50px 30px 10px 60px;
+}
+.da-style-11{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.da-style-11 .row{
+    margin: 50px 0px 20px 80px;
+}
+.bg-1 {
+    color: var(--dark);
+}
+
+.se-head .se-title1 {
+    font-size: 36px;
+    font-family: orbitron;
+    font-weight: 500;
+    color: #0cb340;
+}
+.text-left{
+    text-align: left;
+}
+.margin1{
+    margin: 0, 12px !important;
+}
+.ml-10{
+    margin-left: 10px;
+}
+
+
+.se-head .se-title2 {
+    font-size: 26px;
+    font-family: inter;
+    font-weight: 500;
+    color: antiquewhite;
+    margin-top: 30px;
+}
+
+.light-theme .se-head-da .se-title2 {
+    font-size: 26px;
+    font-family: inter;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+.head3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: orbitron;
+    font-weight: 500;
+    color: #0cb340;
+    padding-bottom: 30px;
+}
+.se-iv-home .Itf-box {
+    background-color: #091d42;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    padding: 35px 5px 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-width: 1px 1px 1px 1px;
+    transition: all 0.2s ease;
+    border-color: #094170;
+}
+.se-iv-home .box_title{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: orbitron;
+}
+
+.se-iv-home .box_para{
+    font-size: 16px;
+    font-weight: 500;
+    color: antiquewhite;
+    line-height: 1.5;
+    max-height: 70px;
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 25px;
+    font-family: Inter;
+}
+.head4-It{
+    color: #0cb340;
+    text-align: center;
+    font-size: 30px;
+    font-family: orbitron;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.hd3 h3{
+    color: aqua;
+    font-size: 20px;
+    font-family: orbitron;
+    font-weight: 500;
+    margin: 2px;
+}
+.hd3 p{
+    color: antiquewhite;
+    margin: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+}
+.head4d .head4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: orbitron;
+    color: #0cb340;
+}
+.head4d .pa4 {
+    text-align: center;
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 500;
+    color: #27AFE8;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 35px;
+}
+.da-mgt2{
+    padding: 0%;
+    margin: 0%;
+}
+.da-mgt2 h2{
+    font: normal normal 500 40px/1.5 orbitron;
+    color: #3cb340;
+}
+.da-mgt2 p{
+    font: normal normal 500 16px/1.5 inter;
+    padding: 15px;
+    color: antiquewhite;
+}
+.da-mgt2 h1{
+    font: normal normal 500 50px/1.5 orbitron;
+    color: #3cb340;
+    padding: 20px;
+}
+.cardda-style1{
+    border: 1px solid #094170;
+    margin: 0%;
+    padding: 0%;
+}
+.cardda-style-main .row .col-lg-4{
+    width: 100px;
+}
+.img-card{
+    width: 100%;
+    height: 150px;
+}
+.damg-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.col-md-3{
+    padding: 0%;
+    margin: 0%;
+}
+
+.da-card1{
+    text-align: center;
+}
+.da-card1 h3{
+    color:#0cb340;
+    font: normal normal 500 18px/1.5 orbitron;
+}
+.da-card1 p{
+    color: antiquewhite;
+    font: normal normal 500 16px/1.5 inter;
+}
+.light-theme .da-card1 p{
+    color: rgb(0, 0, 0);
+    font: normal normal 500 16px/1.5 inter;
+}
+.da-head4{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 70px;
+}
+.da-head4 h3{
+    color: #0cb340;
+    font: normal normal 500 30px/1.5 orbitron;
+
+}
+.da-head4 p{
+    color: antiquewhite;
+    font: normal normal 500 16px/1.5 inter;
+    margin-top: 10px;
+}
+@media(width<=600px){
+    .da-img1{
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .da-mgt2{
+        margin-left: 20px;
+    }
+    .da-mgt2 h1{
+        font-size: 20px;
+        padding:0%;
+        margin: 0%;
+
+    }
+    .da-mgt2 h2 {
+        font: normal normal 500 30px/1.5 orbitron;
+        
+    }
+    .da-style-11{
+        margin-left: 2px;
+    }
+    .da-style-11 .row{
+        margin: 0%;
+    }
+    .da-home-style .row{
+        margin: 10px 10px 10px 10px;
+    }
+    .se-head{
+        padding-left: 10px;
+    }
+    .se-head .se-title1 {
+        font-size: 25px;
+       
+    }
+    .se-head .se-title2 {
+        font-size: 20px;
+        font-family: inter;
+        font-weight: 500;
+        color: antiquewhite;
+        margin-top: 30px;
+    }
+    
+    .cardda-style-main .row{
+        padding: 0px;
+        margin: 0px;
+    }
+    #daa-img{
+        width: 300px;
+        height: 300px;
+    }
+
+}
